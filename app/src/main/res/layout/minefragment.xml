@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/user_center_bg"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/mine_user_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:src="@drawable/user_setting" />
+
+                <ImageButton
+                    android:id="@+id/mine_user_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/user_icon_default" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/login_btn_bg"
+                android:gravity="center"
+                android:text="登录"
+                android:textColor="#00ffff"
+                android:textSize="30dp" />
+
+            <LinearLayout
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/mine_wait_pay"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/wait_pay"
+                    android:gravity="center_horizontal"
+                    android:text="待付款" />
+
+                <Button
+                    android:id="@+id/mine_wait_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/wait_send_good"
+                    android:gravity="center_horizontal"
+                    android:text="待付款" />
+
+                <Button
+                    android:id="@+id/mine_wait_receive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/wait_receive_good"
+                    android:gravity="center_horizontal"
+                    android:text="待付款" />
+
+                <Button
+                    android:id="@+id/mine_wait_evaluate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/wait_evaluate"
+                    android:gravity="center_horizontal"
+                    android:text="待付款" />
+
+                <Button
+                    android:id="@+id/mine_wait_refund"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/wait_refund"
+                    android:gravity="center_horizontal"
+                    android:text="待付款" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:padding="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/my_order_icon"
+                android:drawableRight="@drawable/next_icon"
+                android:gravity="center_vertical"
+                android:text="我的订单"
+                android:textSize="30dp" />
+
+            <TextView
+                android:padding="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/my_coupon_icon"
+                android:drawableRight="@drawable/next_icon"
+                android:gravity="center_vertical"
+                android:text="邀请有礼"
+                android:textSize="30dp" />
+
+            <TextView
+                android:padding="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/my_coupon_icon"
+                android:drawableRight="@drawable/next_icon"
+                android:gravity="center_vertical"
+                android:text="刷脸测尺寸"
+                android:textSize="30dp" />
+
+            <TextView
+                android:padding="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/my_lottery_icon"
+                android:drawableRight="@drawable/next_icon"
+                android:gravity="center_vertical"
+                android:text="我的抽奖单"
+                android:textSize="30dp" />
+
+            <TextView
+                android:padding="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/my_coupon_icon"
+                android:drawableRight="@drawable/next_icon"
+                android:gravity="center_vertical"
+                android:text="我的现金券"
+                android:textSize="30dp" />
+
+            <TextView
+                android:padding="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/my_collection_icon"
+                android:drawableRight="@drawable/next_icon"
+                android:gravity="center_vertical"
+                android:text="我收藏的商品"
+                android:textSize="30dp" />
+
+            <TextView
+                android:padding="7dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/personal_center_contact_service_icon"
+                android:drawableRight="@drawable/next_icon"
+                android:gravity="center_vertical"
+                android:text="联系客服"
+                android:textSize="30dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
